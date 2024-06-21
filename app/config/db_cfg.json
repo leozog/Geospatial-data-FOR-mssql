@@ -1,0 +1,15 @@
+{
+    "user": "AppUser",
+    "password": "Haslo!123!&",
+    "database": "bd2prj",
+    "server": "localhost",
+    "pool": {
+        "max": 100,
+        "min": 0,
+        "idleTimeoutMillis": 30000
+    },
+    "options": {
+        "encrypt": true,
+        "trustServerCertificate": true
+    }
+}

@@ -1,0 +1,6 @@
+C:\Users\Administrator\Documents\projekt\bd2prj\bd2prj\obj\Debug\bd2prj.sqlproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\projekt\bd2prj\bd2prj\bin\Debug\bd2prj.dacpac
+C:\Users\Administrator\Documents\projekt\bd2prj\bd2prj\bin\Debug\bd2prj.dll
+C:\Users\Administrator\Documents\projekt\bd2prj\bd2prj\bin\Debug\bd2prj.pdb
+C:\Users\Administrator\Documents\projekt\bd2prj\bd2prj\obj\Debug\bd2prj.dll
+C:\Users\Administrator\Documents\projekt\bd2prj\bd2prj\obj\Debug\bd2prj.pdb

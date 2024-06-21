@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BD2_prj_APP</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+    <script type="module" src="javascripts/main.js"></script>
+    <script type="module" src="javascripts/map.js"></script>
+    <script type="module" src="javascripts/inside.js"></script>
+    <script type="module" src="javascripts/distance.js"></script>
+    <script type="module" src="javascripts/add.js"></script>
+</head>
+
+<body>
+    <div style="display: flex;">
+        <div class="ui" style="float: left;  display: flex; flex-direction: column; ">
+            <input type="text" id="points" placeholder="Pozycje punktów">
+            <input type="text" id="name" placeholder="Nazwa">
+            <input type="text" id="color_r" placeholder="kolor - R">
+            <input type="text" id="color_g" placeholder="kolor - G">
+            <input type="text" id="color_b" placeholder="kolor - B">
+            <button onclick="addPoint()">Dodaj punkt</button>
+            <button onclick="addPolygon()">Dodaj poligon</button>
+            <div id="result"></div>
+        </div>
+        <div style="float: left; ">
+            <canvas width="640" height="480" id="canvas"></canvas>
+        </div>
+        <div class="ui" style="float: left;  display: flex; flex-direction: column; ">
+            <div style="flex: 1;">
+                Kursor znajduje się w:
+                <div id="inside">
+                </div>
+            </div>
+            <div style="flex: 1;">
+                <input type="text" id="distance_id1" placeholder="id1">
+                <input type="text" id="distance_id2" placeholder="id2">
+                <button onclick="getDistance()">Odległość między punktami</button>
+                <div id="distance">
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
